@@ -7,6 +7,7 @@ public class PelisApp {
 
         Scanner scanner = new Scanner(System.in);
 
+        // Ingreso de datos
         System.out.print("¿Cuántas películas desea ingresar?: ");
         int n = scanner.nextInt();
         scanner.nextLine(); // Limpia el  buffer
@@ -15,7 +16,7 @@ public class PelisApp {
         int[] añoDeLanzamiento = new int[n];
         String[] generos = new String[n];
 
-        // Ingreso de datos
+        
         for (int i = 0; i < n; i++) {
 
             System.out.println("\nPelícula #" + (i + 1));
