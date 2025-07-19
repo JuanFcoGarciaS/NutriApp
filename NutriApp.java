@@ -103,7 +103,7 @@ public class NutriApp{
             System.out.println("Resultado: Nutricionalmente aceptable");
             System.out.println("Gracias por usar nuestra App Nutricional - Copyright @JuanFcoGarciaS");
         } else {
-            System.out.println("Resultado: No es nutricionalmente aceptable");
+            System.out.println("Resultado: No es nutricionalmente aceptable, Exceso de kcal o bajo indice proteico");
             System.out.println("Gracias por usar nuestra App Nutricional - Copyright @JuanFcoGarciaS");
         }
     }
