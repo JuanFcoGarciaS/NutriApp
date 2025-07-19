@@ -42,10 +42,10 @@ public class PelisApp {
         for (int i = 0; i < n; i++) {
 
             System.out.println("Año de lanzamiento:" + añoDeLanzamiento[i] + " Título: " + titulos[i] + " Género: " + generos[i] + " ");
-            System.out.println("Gracias por usar nuestra App de Cine - Copyright @JuanFcoGarciaS");
+            
         
         }
-
+        System.out.println("Gracias por usar nuestra App de Cine - Copyright @JuanFcoGarciaS");
         scanner.close();
     }
 
